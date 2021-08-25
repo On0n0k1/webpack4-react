@@ -14,7 +14,7 @@ npm i
 
 '''
 
- - Start a hot instance with hot reload
+ - Start a hot instance with hot reload. Won't show favicon.
 
 '''
 
@@ -22,7 +22,7 @@ npm start
 
 '''
 
- - Package everything for production in 'dist' folder
+ - Package everything for production in 'dist' folder. Will show favicon. To prove it, open dist folder and run "python3 -m http.server 9000". Then open "localhost:9000".
 
 '''
 
